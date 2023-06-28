@@ -8,7 +8,7 @@ const PuertoPirata = () => {
   return (
     <div className="castor03">
       <Navbar />
-      <Link to="/PuertoPirata" ></Link>
+      <Link to="/PuertoPirata"></Link>
       <header className="cabeza1">
         <img
           src={require(`../public/imagenes/img/puertopirata-1.jpg`)}
@@ -36,11 +36,13 @@ const PuertoPirata = () => {
             src={require(`../public/imagenes/img/puertopirata-1.jpg`)}
             alt="imagen1"
           />
-
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
           <div className="textoddc">
             <p>Detalles del cuadro</p>
           </div>
-
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
           <img
             className="tamaño"
             src={require(`../public/imagenes/img/puertopirata-2.jpg`)}
