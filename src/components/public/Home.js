@@ -76,6 +76,7 @@ function Home() {
           precio="VENDIDO"
         />
         <Cuadro
+          ruta="Almanza02"
           imagen="almanza02-1"
           altImagen="Almanza02"
           titulo="Almanza 02"
@@ -92,6 +93,7 @@ function Home() {
           precio="VENDIDO"
         />
         <Cuadro
+          ruta="Almanza04"
           imagen="almanza04-1"
           altImagen="Almanza04"
           titulo="Almanza 04"
@@ -100,6 +102,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza05"
           imagen="almanza05-1"
           altImagen="Almanza05"
           titulo="Almanza 05"
@@ -108,6 +111,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza06"
           imagen="almanza06-1"
           altImagen="Almanza06"
           titulo="Almanza 06"
@@ -116,6 +120,7 @@ function Home() {
           precio="u$d 450"
         />
         <Cuadro
+          ruta="Almanza07"
           imagen="almanza07-1"
           altImagen="Almanza07"
           titulo="Almanza 07"
@@ -124,6 +129,7 @@ function Home() {
           precio="u$d 450"
         />
         <Cuadro
+          ruta="Almanza08"
           imagen="almanza08-1"
           altImagen="Almanza08"
           titulo="Almanza 08"
@@ -132,6 +138,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza09"
           imagen="almanza09-1"
           altImagen="Almanza09"
           titulo="Almanza 09"
@@ -140,6 +147,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza10"
           imagen="almanza10-1"
           altImagen="Almanza10"
           titulo="Almanza 10"
@@ -148,6 +156,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza11"
           imagen="almanza11-1"
           altImagen="Almanza11"
           titulo="Almanza 11"
@@ -156,6 +165,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza12"
           imagen="almanza12-1"
           altImagen="Almanza12"
           titulo="Almanza 12"
@@ -164,6 +174,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza13"
           imagen="almanza13-1"
           altImagen="Almanza13"
           titulo="Almanza 13"
@@ -172,6 +183,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza14"
           imagen="almanza14-1"
           altImagen="Almanza14"
           titulo="Almanza 14"
@@ -180,6 +192,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza15"
           imagen="almanza15-1"
           altImagen="Almanza15"
           titulo="Almanza 15"
@@ -188,6 +201,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza16"
           imagen="almanza16-1"
           altImagen="Almanza16"
           titulo="Almanza 16"
@@ -196,6 +210,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza17"
           imagen="almanza17-1"
           altImagen="Almanza17"
           titulo="Almanza 17"
@@ -204,6 +219,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza18"
           imagen="almanza18-1"
           altImagen="Almanza18"
           titulo="Almanza 18"
@@ -212,6 +228,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="Almanza19"
           imagen="almanza19-1"
           altImagen="Almanza19"
           titulo="Almanza 19"
