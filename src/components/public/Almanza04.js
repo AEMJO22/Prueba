@@ -1,28 +1,28 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
 import "../estilos/Web2.css";
+import { Outlet } from "react-router-dom";
+
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
-const Castor031 = () => {
+const Almanza04 = () => {
   return (
-    <div className="castor03">
+    <div>
       <Navbar />
-      <Link to="/castor031"></Link>
       <header className="cabeza1">
         <img
-          src={require(`../public/imagenes/img/Castor03-1.jpg`)}
+          src={require(`../public/imagenes/img/almanza04-1.jpg`)}
           alt="img0"
           className="img0"
           width="100%"
           height="100%"
         />
         <div className="contenido-header1">
-          <h1 className="simple-contenido-header__title">Castor 03</h1>
+          <h1 className="simple-contenido-header__title">Almanza 04</h1>
           <p className="simple-contenido-header__entry-meta">
             "Oleo Sobre Tela"
             <br />
-            17,5cm X 25cm
+            25cm X 17,5cm
             <br />
           </p>
           <p className="simple-contenido-header__entry-meta2">u$d 350</p>
@@ -33,7 +33,7 @@ const Castor031 = () => {
         <div className="col-sm-8 ">
           <img
             className="tamaño"
-            src={require(`../public/imagenes/img/Castor03-1.jpg`)}
+            src={require(`../public/imagenes/img/almanza04-1.jpg`)}
             alt="imagen1"
           />
 
@@ -43,9 +43,8 @@ const Castor031 = () => {
 
           <img
             className="tamaño"
-            src={require(`../public/imagenes/img/Castor03-2.jpg`)}
+            src={require(`../public/imagenes/img/almanza04-2.jpg`)}
             alt="imagen2"
-            
           />
 
           <p>&nbsp;</p>
@@ -53,9 +52,8 @@ const Castor031 = () => {
           <p>
             <img
               className="tamaño"
-              src={require(`../public/imagenes/img/Castor03-3.jpg`)}
+              src={require(`../public/imagenes/img/almanza04-3.jpg`)}
               alt="imagen3"
-              
             />
           </p>
           <p>&nbsp;</p>
@@ -63,18 +61,29 @@ const Castor031 = () => {
           <p>
             <img
               className="tamaño"
-              src={require(`../public/imagenes/img/Castor03-4.jpg`)}
+              src={require(`../public/imagenes/img/almanza04-4.jpg`)}
               alt="imagen4"
-            
             />
           </p>
-        </div>
-      </div>
 
+          <p className="textoddc">Pintando el cuadro</p>
+
+          <img
+            className="tamañopie"
+            src={require(`../public/imagenes/img/almanza04-atril-1.jpg`)}
+            alt="imagen6"
+            loading="lazy"
+          />
+
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+
+          </div>
+      </div>
       <Fotter />
       <Outlet />
     </div>
   );
 };
 
-export default Castor031;
+export default Almanza04;

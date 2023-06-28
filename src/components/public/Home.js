@@ -32,6 +32,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="/Castor041"
           imagen="Castor04-1"
           altImagen="Castor04"
           titulo="Castor 04"
@@ -40,6 +41,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="/Castor051"
           imagen="Castor05-1"
           altImagen="Castor05"
           titulo="Castor 05"
@@ -48,6 +50,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="/Castor061"
           imagen="Castor06-1"
           altImagen="Castor06"
           titulo="Castor 06"
@@ -56,6 +59,7 @@ function Home() {
           precio="u$d 350"
         />
         <Cuadro
+          ruta="/PuertoPirata"
           imagen="puertopirata-1"
           altImagen="Puertopirata1"
           titulo="Puerto Pirata"

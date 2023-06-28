@@ -4,28 +4,28 @@ import "../estilos/Web2.css";
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
-const Castor031 = () => {
+const Almanza02 = () => {
   return (
     <div className="castor03">
       <Navbar />
-      <Link to="/castor031"></Link>
+      <Link to="/Almanza02"></Link>
       <header className="cabeza1">
         <img
-          src={require(`../public/imagenes/img/Castor03-1.jpg`)}
+          src={require(`../public/imagenes/img/almanza02-1.jpg`)}
           alt="img0"
           className="img0"
           width="100%"
           height="100%"
         />
         <div className="contenido-header1">
-          <h1 className="simple-contenido-header__title">Castor 03</h1>
+          <h1 className="simple-contenido-header__title">Almanza 02</h1>
           <p className="simple-contenido-header__entry-meta">
-            "Oleo Sobre Tela"
+            "Oleo Sobre Madera"
             <br />
-            17,5cm X 25cm
+            53cm X 23cm
             <br />
           </p>
-          <p className="simple-contenido-header__entry-meta2">u$d 350</p>
+          <p className="simple-contenido-header__entry-meta2">u$d 450</p>
         </div>{" "}
       </header>
 
@@ -33,7 +33,7 @@ const Castor031 = () => {
         <div className="col-sm-8 ">
           <img
             className="tamaño"
-            src={require(`../public/imagenes/img/Castor03-1.jpg`)}
+            src={require(`../public/imagenes/img/almanza02-1.jpg`)}
             alt="imagen1"
           />
 
@@ -43,9 +43,8 @@ const Castor031 = () => {
 
           <img
             className="tamaño"
-            src={require(`../public/imagenes/img/Castor03-2.jpg`)}
+            src={require(`../public/imagenes/img/almanza02-2.jpg`)}
             alt="imagen2"
-            
           />
 
           <p>&nbsp;</p>
@@ -53,9 +52,8 @@ const Castor031 = () => {
           <p>
             <img
               className="tamaño"
-              src={require(`../public/imagenes/img/Castor03-3.jpg`)}
+              src={require(`../public/imagenes/img/almanza02-3.jpg`)}
               alt="imagen3"
-              
             />
           </p>
           <p>&nbsp;</p>
@@ -63,9 +61,8 @@ const Castor031 = () => {
           <p>
             <img
               className="tamaño"
-              src={require(`../public/imagenes/img/Castor03-4.jpg`)}
+              src={require(`../public/imagenes/img/almanza02-4.jpg`)}
               alt="imagen4"
-            
             />
           </p>
         </div>
@@ -77,4 +74,4 @@ const Castor031 = () => {
   );
 };
 
-export default Castor031;
+export default Almanza02;
