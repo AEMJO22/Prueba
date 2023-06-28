@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Outlet } from "react-router-dom";
+import { Outlet,Link } from "react-router-dom";
 import "../estilos/Web2.css";
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";

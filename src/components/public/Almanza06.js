@@ -4,7 +4,7 @@ import "../estilos/Web2.css";
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
-const Almanza05 = () => {
+const Almanza06 = () => {
   return (
     <div className="castor03">
       <Navbar />
