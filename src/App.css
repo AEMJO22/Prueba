@@ -1,38 +1,162 @@
+@import url('https: //www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyDw5UoPH4IgQ_C3L24z5AHppQ4B_ap9vTA');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import './components/estilos/Caja.css';
+/*PRUEBA*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar{
+height: 4vh;
+width: 100%;
+background-color:#b2b29a79 ;
+align-content: space-evenly;
+border-radius: 2%;
+
+}
+
+.botonesheader{
+display: flex;
+}
+.cuerpo{
+  padding: 1%;
+  margin-bottom: 7vh;
+  align-items: center;
+ 
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+link {
+  color: #000000;
+  text-decoration: none;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  margin-left: 5%;
+  margin-right: 5%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.textoBajo,
+.row:after,
+.row:before {
+
+  display: table;
+}
+
+.textoBajo,
+.row:after {
+  clear: both
+}
+
+.textoBajo,
+.abs-center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  text-align: center;
+
+}
+.textoBajo{
+  text-align: justify;
+  font-size: 100%;
+  margin-left:5% ;
+  margin-right: 5%;
+  margin-bottom:10% ;
+}
+#copete{
+  text-align:justify;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.tituloExpo {
+  font-size: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: #000000
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+#pie {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+ 
+  
+}
+.botones1 {
+display: flex;
+align-items: center;
+
+}
+
+.botones {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-whatsapp {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:700px) {
+  header {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .encabezado{
+width: auto;
+height: 22vh;
   }
 }
+@media (min-width:701px) {
+.encabezado {
+    width: auto;
+    height: 50vh;
+  }
+}
+
+.contenedorCajas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;   
+  
+ 
+}
+
+.contenedorCajas1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
