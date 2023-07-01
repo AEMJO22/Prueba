@@ -1,5 +1,5 @@
 import React from "react";
-import "../estilos/Web2.css";
+
 import { Outlet, Link } from "react-router-dom";
 
 const Cuerpo2 = (props) => {
@@ -33,10 +33,11 @@ const Cuerpo2 = (props) => {
       <div className="contenido1">
         <div className="contenidobody">
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/${props.im1}.jpg`)}
             alt="imagen1"
             loading="lazy"
+         
           />
 
           <div className="textoddc">
@@ -44,7 +45,7 @@ const Cuerpo2 = (props) => {
           </div>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/${props.im2}.jpg`)}
             alt="imagen2"
             loading="lazy"
@@ -54,7 +55,7 @@ const Cuerpo2 = (props) => {
           <p>&nbsp;</p>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/${props.im3}.jpg`)}
             alt="imagen3"
             loading="lazy"
@@ -64,7 +65,7 @@ const Cuerpo2 = (props) => {
           <p>&nbsp;</p>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/${props.im4}.jpg`)}
             alt="imagen4"
             loading="lazy"
@@ -74,7 +75,7 @@ const Cuerpo2 = (props) => {
           <p>&nbsp;</p>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/${props.im5}.jpg`)}
             alt="imagen5"
             loading="lazy"
@@ -85,7 +86,7 @@ const Cuerpo2 = (props) => {
           <p className="textoddc">Pintando el cuadro</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/${props.im6}.jpg`)}
             alt="imagen6"
             loading="lazy"
@@ -95,7 +96,7 @@ const Cuerpo2 = (props) => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/${props.im7}.jpg`)}
             alt="imagen7"
             loading="lazy"

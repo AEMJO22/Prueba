@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Outlet } from "react-router-dom";
+import { Outlet,Link } from "react-router-dom";
 import Cuerpo2 from "./Cuerpo2";
 import Navbar from './Navbar';
 import { Fotter } from './Fotter';

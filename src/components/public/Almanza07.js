@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Outlet,Link } from "react-router-dom";
-import "../estilos/Web2.css";
+
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
@@ -33,7 +33,7 @@ const Almanza07 = () => {
       <div className="contenido1">
         <div className="col-sm-8 ">
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/almanza07-1.jpg`)}
             alt="imagen1"
           />
@@ -43,7 +43,7 @@ const Almanza07 = () => {
           </div>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/almanza07-2.jpg`)}
             alt="imagen2"
           />
@@ -52,7 +52,7 @@ const Almanza07 = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/almanza07-3.jpg`)}
               alt="imagen3"
             />
@@ -61,7 +61,7 @@ const Almanza07 = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/almanza07-4.jpg`)}
               alt="imagen4"
             />
@@ -70,7 +70,7 @@ const Almanza07 = () => {
           <p className="textoddc">Pintando el cuadro</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/almanza07-atril-1.jpg`)}
             alt="imagen6"
             loading="lazy"
@@ -80,7 +80,7 @@ const Almanza07 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/almanza07-atril-2.jpg`)}
             alt="imagen7"
             loading="lazy"

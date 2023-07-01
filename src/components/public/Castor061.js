@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import "../estilos/Web2.css";
+
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
@@ -32,7 +32,7 @@ const Castor061 = () => {
       <div className="contenido1">
         <div className="col-sm-8 ">
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/Castor06-1.jpg`)}
             alt="imagen1"
           />
@@ -42,7 +42,7 @@ const Castor061 = () => {
           </div>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/Castor06-2.jpg`)}
             alt="imagen2"
           />
@@ -51,7 +51,7 @@ const Castor061 = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/Castor06-3.jpg`)}
               alt="imagen3"
             />
@@ -60,7 +60,7 @@ const Castor061 = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/Castor06-4.jpg`)}
               alt="imagen4"
             />
@@ -69,7 +69,7 @@ const Castor061 = () => {
           <p className="textoddc">Pintando el cuadro</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/Castor06-atril-1.jpg`)}
             alt="imagen6"
             loading="lazy"
@@ -79,7 +79,7 @@ const Castor061 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/Castor06-atril-2.jpg`)}
             alt="imagen7"
             loading="lazy"

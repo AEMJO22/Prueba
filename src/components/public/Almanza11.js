@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Outlet } from "react-router-dom";
-import "../estilos/Web2.css";
+import { Outlet, Link } from "react-router-dom";
+
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
@@ -9,6 +9,7 @@ const Almanza11 = () => {
   return (
     <div>
       <Navbar />
+      <Link to="/Almanza11"></Link>
       <header className="cabeza1">
         <img
           src={require(`../public/imagenes/img/almanza11-1.jpg`)}
@@ -32,7 +33,7 @@ const Almanza11 = () => {
       <div className="contenido1">
         <div className="col-sm-8 ">
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/almanza11-1.jpg`)}
             alt="imagen1"
           />
@@ -42,16 +43,17 @@ const Almanza11 = () => {
           </div>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/almanza11-1.jpg`)}
             alt="imagen2"
+            
           />
 
           <p>&nbsp;</p>
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/almanza11-2.jpg`)}
               alt="imagen3"
             />
@@ -60,7 +62,7 @@ const Almanza11 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/almanza11-3.jpg`)}
             alt="imagen4"
           />
@@ -68,7 +70,7 @@ const Almanza11 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/almanza11-4.jpg`)}
             alt="imagen4"
           />
@@ -76,7 +78,7 @@ const Almanza11 = () => {
           <p className="textoddc">Pintando el cuadro</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/almanza11-atril-1.jpg`)}
             alt="imagen6"
             loading="lazy"
@@ -86,7 +88,7 @@ const Almanza11 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/almanza11-atril-2.jpg`)}
             alt="imagen7"
             loading="lazy"
@@ -95,7 +97,7 @@ const Almanza11 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/almanza11-atril-3.jpg`)}
             alt="imagen7"
             loading="lazy"
@@ -104,7 +106,7 @@ const Almanza11 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/almanza11-atril-4.jpg`)}
             alt="imagen7"
             loading="lazy"

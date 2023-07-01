@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Outlet } from "react-router-dom";
-import "../estilos/Web2.css";
+import { Outlet, Link } from "react-router-dom";
+
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
@@ -9,6 +9,7 @@ const Castor051 = () => {
   return (
     <div>
       <Navbar />
+      <Link to="/Castor051"></Link>
       <header className="cabeza1">
         <img
           src={require(`../public/imagenes/img/Castor05-1.jpg`)}
@@ -32,7 +33,7 @@ const Castor051 = () => {
       <div className="contenido1">
         <div className="col-sm-8 ">
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/Castor05-1.jpg`)}
             alt="imagen1"
           />
@@ -42,7 +43,7 @@ const Castor051 = () => {
           </div>
 
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/Castor05-2.jpg`)}
             alt="imagen2"
           />
@@ -51,7 +52,7 @@ const Castor051 = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/Castor05-3.jpg`)}
               alt="imagen3"
             />
@@ -60,7 +61,7 @@ const Castor051 = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/Castor05-4.jpg`)}
               alt="imagen4"
             />
@@ -69,7 +70,7 @@ const Castor051 = () => {
           <p className="textoddc">Pintando el cuadro</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/Castor05-atril-1.jpg`)}
             alt="imagen6"
             loading="lazy"
@@ -79,7 +80,7 @@ const Castor051 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/Castor05-atril-2.jpg`)}
             alt="imagen7"
             loading="lazy"
@@ -88,7 +89,7 @@ const Castor051 = () => {
           <p>&nbsp;</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/Castor05-atril-3.jpg`)}
             alt="imagen7"
             loading="lazy"

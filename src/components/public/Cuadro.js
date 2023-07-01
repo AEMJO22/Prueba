@@ -17,7 +17,7 @@ function Cuadro(props) {
         <h5 className="contenedorTitulo"> {props.titulo}</h5>
         <p className="contenedorParrafo">
           {props.texto} <br />
-          {props.tamaño}
+          {props.tamano}
           <br />
           {props.precio}
         </p>

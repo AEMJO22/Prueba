@@ -19,7 +19,7 @@ function Home() {
           altImagen="Castor02"
           titulo="Castor 02"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -28,7 +28,7 @@ function Home() {
           altImagen="Castor03"
           titulo="Castor 03"
           texto="Oleo Sobre Tela"
-          tamaño="17,5cm X 25cm"
+          tamano="17,5cm X 25cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -37,7 +37,7 @@ function Home() {
           altImagen="Castor04"
           titulo="Castor 04"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -46,7 +46,7 @@ function Home() {
           altImagen="Castor05"
           titulo="Castor 05"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -55,7 +55,7 @@ function Home() {
           altImagen="Castor06"
           titulo="Castor 06"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -64,7 +64,7 @@ function Home() {
           altImagen="Puertopirata1"
           titulo="Puerto Pirata"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -72,7 +72,7 @@ function Home() {
           altImagen="Almanza01"
           titulo="Almanza 01"
           texto="Oleo Sobre Madera"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="VENDIDO"
         />
         <Cuadro
@@ -81,7 +81,7 @@ function Home() {
           altImagen="Almanza02"
           titulo="Almanza 02"
           texto="Oleo Sobre Madera"
-          tamaño="53cm X 23cm"
+          tamano="53cm X 23cm"
           precio="u$d 450"
         />
         <Cuadro
@@ -89,7 +89,7 @@ function Home() {
           altImagen="Almanza03"
           titulo="Almanza 03"
           texto="Oleo Sobre Madera"
-          tamaño="53cm X 30cm"
+          tamano="53cm X 30cm"
           precio="VENDIDO"
         />
         <Cuadro
@@ -98,7 +98,7 @@ function Home() {
           altImagen="Almanza04"
           titulo="Almanza 04"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -107,7 +107,7 @@ function Home() {
           altImagen="Almanza05"
           titulo="Almanza 05"
           texto="Oleo Sobre Madera"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -116,7 +116,7 @@ function Home() {
           altImagen="Almanza06"
           titulo="Almanza 06"
           texto="Oleo Sobre Tela"
-          tamaño="53cm X 23cm"
+          tamano="53cm X 23cm"
           precio="u$d 450"
         />
         <Cuadro
@@ -125,7 +125,7 @@ function Home() {
           altImagen="Almanza07"
           titulo="Almanza 07"
           texto="Oleo Sobre Tela"
-          tamaño="53cm X 23cm"
+          tamano="53cm X 23cm"
           precio="u$d 450"
         />
         <Cuadro
@@ -134,7 +134,7 @@ function Home() {
           altImagen="Almanza08"
           titulo="Almanza 08"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -143,7 +143,7 @@ function Home() {
           altImagen="Almanza09"
           titulo="Almanza 09"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -152,7 +152,7 @@ function Home() {
           altImagen="Almanza10"
           titulo="Almanza 10"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -161,7 +161,7 @@ function Home() {
           altImagen="Almanza11"
           titulo="Almanza 11"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -170,7 +170,7 @@ function Home() {
           altImagen="Almanza12"
           titulo="Almanza 12"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -179,7 +179,7 @@ function Home() {
           altImagen="Almanza13"
           titulo="Almanza 13"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -188,7 +188,7 @@ function Home() {
           altImagen="Almanza14"
           titulo="Almanza 14"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -197,7 +197,7 @@ function Home() {
           altImagen="Almanza15"
           titulo="Almanza 15"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -206,7 +206,7 @@ function Home() {
           altImagen="Almanza16"
           titulo="Almanza 16"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -215,7 +215,7 @@ function Home() {
           altImagen="Almanza17"
           titulo="Almanza 17"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -224,7 +224,7 @@ function Home() {
           altImagen="Almanza18"
           titulo="Almanza 18"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
         <Cuadro
@@ -233,7 +233,7 @@ function Home() {
           altImagen="Almanza19"
           titulo="Almanza 19"
           texto="Oleo Sobre Tela"
-          tamaño="25cm X 17,5cm"
+          tamano="25cm X 17,5cm"
           precio="u$d 350"
         />
       </div>
@@ -246,31 +246,31 @@ function Home() {
           imagen1="almanza10-atril-1"
           altImagen1="Almanza10"
           texto1="Pintando en Puerto Almanza"
-          tamaño1="Febrero 2023"
+          tamano1="Febrero 2023"
         />
         <FotoPie
           imagen1="almanza11-atril-4"
           altImagen1="Almanza11"
           texto1="Pintando en Puerto Almanza"
-          tamaño1="Enero 2023"
+          tamano1="Enero 2023"
         />
         <FotoPie
           imagen1="almanza04-atril-1"
           altImagen1="Almanza04-atril-1"
           texto1="Pintando en Puerto Almanza"
-          tamaño1="Enero 2023"
+          tamano1="Enero 2023"
         />
         <FotoPie
           imagen1="puertopirata-atril-2"
           altImagen1="puertopirata-atril-2"
           texto1="Pintando en Puerto Pirata"
-          tamaño1="Diciembre 2022"
+          tamano1="Diciembre 2022"
         />
         <FotoPie
           imagen1="Castor04-atril-3"
           altImagen1="castor04-atril-3"
           texto1="Pintando en Cerro Castor"
-          tamaño1="Mayo 2023"
+          tamano1="Mayo 2023"
         />
       </div>
       <Fotter />

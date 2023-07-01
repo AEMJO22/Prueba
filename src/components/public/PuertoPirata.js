@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import "../estilos/Web2.css";
+
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
 
@@ -32,7 +32,7 @@ const PuertoPirata = () => {
       <div className="contenido1">
         <div className="col-sm-8 ">
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/puertopirata-1.jpg`)}
             alt="imagen1"
           />
@@ -44,7 +44,7 @@ const PuertoPirata = () => {
           <p>&nbsp;</p>
           <p>&nbsp;</p>
           <img
-            className="tamaño"
+            className="tamano"
             src={require(`../public/imagenes/img/puertopirata-2.jpg`)}
             alt="imagen2"
           />
@@ -53,7 +53,7 @@ const PuertoPirata = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/puertopirata-3.jpg`)}
               alt="imagen3"
             />
@@ -62,7 +62,7 @@ const PuertoPirata = () => {
           <p>&nbsp;</p>
           <p>
             <img
-              className="tamaño"
+              className="tamano"
               src={require(`../public/imagenes/img/puertopirata-4.jpg`)}
               alt="imagen4"
             />
@@ -71,29 +71,28 @@ const PuertoPirata = () => {
           <p className="textoddc">Pintando el cuadro</p>
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/puertopirata-atril-1.jpg`)}
             alt="imagen6"
             loading="lazy"
           />
 
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
+         
 
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/puertopirata-atril-2.jpg`)}
             alt="imagen7"
             loading="lazy"
           />
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/puertopirata-atril-1-2.jpg`)}
             alt="imagen8"
             loading="lazy"
           />
           <img
-            className="tamañopie"
+            className="tamanopie"
             src={require(`../public/imagenes/img/puertopirata-atril-2-2.jpg`)}
             alt="imagen9"
             loading="lazy"

@@ -12,7 +12,7 @@ function FotoPie(props) {
       />
       <p className="contenedorParrafo1">
         {props.texto1} <br />
-        {props.tamaño1}
+        {props.tamano1}
             
       </p>
     </div>
