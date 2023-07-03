@@ -1,14 +1,14 @@
-import React from "react";
-import hogar from "./imagenes/img/hogar.svg";
+import React from 'react'
+import favicon from "./imagenes/img/favicon.ico";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar3 = () => {
   return (
     <div>
       <nav className="navbar">
         <div className="container">
           <Link to="/expocastor">
-            <img src={hogar} alt="icono" width="25" height="25" />
+            <img src={favicon} alt="icono" width="40" height="40" />
           </Link>
           <div className="botonesheader">
             <a href="https://www.instagram.com/charlyvidald">
@@ -55,6 +55,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-};
+}
 
-export default Navbar;
+export default Navbar3

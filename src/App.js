@@ -16,6 +16,14 @@ import Almanza08 from "./components/public/Almanza08";
 import Almanza09 from "./components/public/Almanza09";
 import Almanza10 from "./components/public/Almanza10";
 import Almanza11 from "./components/public/Almanza11";
+import Almanza12 from "./components/public/Almanza12";
+import Almanza13 from './components/public/Almanza13';
+import Almanza14 from "./components/public/Almanza14";
+import Almanza15 from "./components/public/Almanza15";
+import Almanza16 from "./components/public/Almanza16";
+import Almanza17 from "./components/public/Almanza17";
+import Almanza18 from "./components/public/Almanza18";
+import Almanza19 from "./components/public/Almanza19";
 
 function App() {
   return (
@@ -38,6 +46,14 @@ function App() {
         <Route path="/Almanza09" element={<Almanza09 />} />
         <Route path="/Almanza10" element={<Almanza10 />} />
         <Route path="/Almanza11" element={<Almanza11 />} />
+        <Route path="/Almanza12" element={<Almanza12 />} />
+        <Route path="/Almanza13" element={<Almanza13 />} />
+        <Route path="/Almanza14" element={<Almanza14 />} />
+        <Route path="/Almanza15" element={<Almanza15 />} />
+        <Route path="/Almanza16" element={<Almanza16 />} />
+        <Route path="/Almanza17" element={<Almanza17 />} />
+        <Route path="/Almanza18" element={<Almanza18 />} />
+        <Route path="/Almanza19" element={<Almanza19 />} />
       </Routes>
     </div>
   );

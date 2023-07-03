@@ -20,6 +20,16 @@ border-radius: 2%;
 .botonesheader{
 display: flex;
 }
+
+.botonesheader2 {
+  display: flex;
+  align-content: space-between;
+  align-self: center;
+  text-align: center;
+  font-size: large;
+  margin-left: 29%;
+
+}
 .cuerpo{
   padding: 1%;
   margin-bottom: 7vh;
@@ -72,7 +82,7 @@ link {
   margin-bottom:10% ;
 }
 #copete{
-  text-align:justify;
+  text-align:center;
   font-size: 100%;
   margin-left: 5%;
   margin-right: 5%;
@@ -114,6 +124,10 @@ align-items: center;
 .bi-whatsapp {
   margin-left: 20px;
   margin-right: 20px;
+}
+.bi-whatsapp2 {
+  margin-left: 20dvi;
+ 
 }
 
 @media (max-width:700px) {

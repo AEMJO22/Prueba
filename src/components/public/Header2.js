@@ -1,10 +1,11 @@
 import React from "react";
 import FotoFinal from "./imagenes/img/FotoFinal.jpg";
-import Navbar3 from "./Navbar3";
-const Header = () => {
+import Navbar2 from "./Navbar";
+
+const Header2 = () => {
   return (
     <div className="header">
-      <Navbar3 />
+      <Navbar2 />
       <div className="encabezado">
         <img src={FotoFinal} height="100%" width="100%" />
       </div>
@@ -12,4 +13,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;
