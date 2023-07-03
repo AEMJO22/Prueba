@@ -22,12 +22,13 @@ display: flex;
 }
 
 .botonesheader2 {
-  display: flex;
-  align-content: space-between;
-  align-self: center;
-  text-align: center;
-  font-size: large;
-  margin-left: 29%;
+ display: flex;
+  font-size: 110%;
+ align-self: center;
+margin-left: 28%;
+  position: relative;
+
+
 
 }
 .cuerpo{
@@ -138,12 +139,22 @@ align-items: center;
 width: auto;
 height: 22vh;
   }
+     .botonesheader2 {
+       display: flex;
+       font-size: 90%;
+       align-self: center;
+       margin-left: 10%;
+       position: relative;
+  
+  
+     }
 }
 @media (min-width:701px) {
 .encabezado {
     width: auto;
     height: 50vh;
   }
+   
 }
 
 .contenedorCajas {
@@ -315,10 +326,11 @@ img.tamano {
 }
 
 @media(max-width:400px) {
-  
+ 
   .h1 {
     font-size: 2.5%;
   }
+
 
   .contenido1 h4 h1 {
     font-size: .8rem;
@@ -356,7 +368,18 @@ img.tamano {
     width: 80%;
     margin-left: 5%;
   }
+    .botonesheader2 {
+      display: flex;
+      font-size:80%;
+      align-self: center;
+      margin-left: 7%;
+      position: relative;
 
+
+}
+.tituloExpo {
+  font-size: medium;
+}
 
 }
 

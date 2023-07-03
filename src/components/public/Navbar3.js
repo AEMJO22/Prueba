@@ -1,15 +1,15 @@
 import React from 'react'
 import favicon from "./imagenes/img/favicon.ico";
-import { Link } from "react-router-dom";
+
 
 const Navbar3 = () => {
   return (
     <div>
       <nav className="navbar">
         <div className="container">
-          <Link to="/expocastor">
+          
             <img src={favicon} alt="icono" width="40" height="40" />
-          </Link>
+        
           <div className="botonesheader">
             <a href="https://www.instagram.com/charlyvidald">
               <svg
