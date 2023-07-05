@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Outlet,Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import { Fotter } from "./Fotter";
@@ -8,10 +8,9 @@ import { Fotter } from "./Fotter";
 const Castor041 = () => {
   return (
     <div>
-      
       <Navbar />
-      <Link to="/Castor04"></Link>
-       <header className="cabeza1">
+      <Link to="/Castor041"></Link>
+      <header className="cabeza1">
         <img
           src={require(`../public/imagenes/img/Castor04-1.jpg`)}
           alt="img0"

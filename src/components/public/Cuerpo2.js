@@ -8,7 +8,7 @@ const Cuerpo2 = (props) => {
       <Link to={props.ruta}> </Link>
       <header className="cabeza1">
         <img
-          src={require(`../public/imagenes/img/${props.foto}.webp`)}
+          src={require(`../public/imagenes/img/${props.foto}.jpg`)}
           alt="img0"
           className="img0"
           loading="lazy"
@@ -34,7 +34,7 @@ const Cuerpo2 = (props) => {
         <div className="contenidobody">
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/${props.im1}.webp`)}
+            src={require(`../public/imagenes/img/${props.im1}.jpg`)}
             alt="imagen1"
             loading="lazy"
           />
@@ -45,7 +45,7 @@ const Cuerpo2 = (props) => {
 
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/${props.im2}.webp`)}
+            src={require(`../public/imagenes/img/${props.im2}.jpg`)}
             alt="imagen2"
             loading="lazy"
           />
@@ -55,7 +55,7 @@ const Cuerpo2 = (props) => {
 
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/${props.im3}.webp`)}
+            src={require(`../public/imagenes/img/${props.im3}.jpg`)}
             alt="imagen3"
             loading="lazy"
           />
@@ -65,7 +65,7 @@ const Cuerpo2 = (props) => {
 
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/${props.im4}.webp`)}
+            src={require(`../public/imagenes/img/${props.im4}.jpg`)}
             alt="imagen4"
             loading="lazy"
           />
@@ -75,7 +75,7 @@ const Cuerpo2 = (props) => {
 
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/${props.im5}.webp`)}
+            src={require(`../public/imagenes/img/${props.im5}.jpg`)}
             alt="imagen5"
             loading="lazy"
           />
@@ -86,7 +86,7 @@ const Cuerpo2 = (props) => {
 
           <img
             className="tamanopie"
-            src={require(`../public/imagenes/img/${props.im6}.webp`)}
+            src={require(`../public/imagenes/img/${props.im6}.jpg`)}
             alt="imagen6"
             loading="lazy"
           />
@@ -96,7 +96,7 @@ const Cuerpo2 = (props) => {
 
           <img
             className="tamanopie"
-            src={require(`../public/imagenes/img/${props.im7}.webp`)}
+            src={require(`../public/imagenes/img/${props.im7}.jpg`)}
             alt="imagen7"
             loading="lazy"
           />
