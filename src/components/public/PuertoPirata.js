@@ -11,7 +11,7 @@ const PuertoPirata = () => {
       <Link to="/PuertoPirata"></Link>
       <header className="cabeza1">
         <img
-          src={require(`../public/imagenes/img/puertopirata-1.jpg`)}
+          src={require(`../public/imagenes/img/puertopirata-1.webp`)}
           alt="img0"
           className="img0"
           width="100%"
@@ -33,7 +33,7 @@ const PuertoPirata = () => {
         <div className="col-sm-8 ">
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/puertopirata-1.jpg`)}
+            src={require(`../public/imagenes/img/puertopirata-1.webp`)}
             alt="imagen1"
           />
           <p>&nbsp;</p>
@@ -54,7 +54,7 @@ const PuertoPirata = () => {
           <p>
             <img
               className="tamano"
-              src={require(`../public/imagenes/img/puertopirata-3.jpg`)}
+              src={require(`../public/imagenes/img/puertopirata-3.webp`)}
               alt="imagen3"
             />
           </p>
@@ -72,28 +72,26 @@ const PuertoPirata = () => {
 
           <img
             className="tamanopie"
-            src={require(`../public/imagenes/img/puertopirata-atril-1.jpg`)}
+            src={require(`../public/imagenes/img/puertopirata-atril-1.webp`)}
             alt="imagen6"
             loading="lazy"
           />
 
-         
-
           <img
             className="tamanopie"
-            src={require(`../public/imagenes/img/puertopirata-atril-2.jpg`)}
+            src={require(`../public/imagenes/img/puertopirata-atril-2.webp`)}
             alt="imagen7"
             loading="lazy"
           />
           <img
             className="tamanopie"
-            src={require(`../public/imagenes/img/puertopirata-atril-1-2.jpg`)}
+            src={require(`../public/imagenes/img/puertopirata-atril-1-2.webp`)}
             alt="imagen8"
             loading="lazy"
           />
           <img
             className="tamanopie"
-            src={require(`../public/imagenes/img/puertopirata-atril-2-2.jpg`)}
+            src={require(`../public/imagenes/img/puertopirata-atril-2-2.webp`)}
             alt="imagen9"
             loading="lazy"
           />

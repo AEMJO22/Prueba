@@ -11,7 +11,7 @@ const Castor031 = () => {
       <Link to="/castor031"></Link>
       <header className="cabeza1">
         <img
-          src={require(`../public/imagenes/img/Castor03-1.jpg`)}
+          src={require(`../public/imagenes/img/Castor03-1.webp`)}
           alt="img0"
           className="img0"
           width="100%"
@@ -33,7 +33,7 @@ const Castor031 = () => {
         <div className="col-sm-8 ">
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/Castor03-1.jpg`)}
+            src={require(`../public/imagenes/img/Castor03-1.webp`)}
             alt="imagen1"
           />
 
@@ -43,10 +43,8 @@ const Castor031 = () => {
 
           <img
             className="tamano"
-            src={require(`../public/imagenes/img/Castor03-2.jpg`)}
+            src={require(`../public/imagenes/img/Castor03-2.webp`)}
             alt="imagen2"
-            
-            
           />
 
           <p>&nbsp;</p>
@@ -54,9 +52,8 @@ const Castor031 = () => {
           <p>
             <img
               className="tamano"
-              src={require(`../public/imagenes/img/Castor03-3.jpg`)}
+              src={require(`../public/imagenes/img/Castor03-3.webp`)}
               alt="imagen3"
-              
             />
           </p>
           <p>&nbsp;</p>
@@ -64,9 +61,8 @@ const Castor031 = () => {
           <p>
             <img
               className="tamano"
-              src={require(`../public/imagenes/img/Castor03-4.jpg`)}
+              src={require(`../public/imagenes/img/Castor03-4.webp`)}
               alt="imagen4"
-            
             />
           </p>
         </div>
