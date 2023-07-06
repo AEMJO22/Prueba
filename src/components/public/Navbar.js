@@ -8,7 +8,9 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container">
           <Link to="/expocastor">
-            <img src={hogar} alt="icono" width="25" height="25" />
+            <div className="btn-2">
+              <img src={hogar} alt="icono" width="25" height="25" />
+            </div>
           </Link>
           <div className="botonesheader">
             <a href="https://www.instagram.com/charlyvidald">

@@ -2,7 +2,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import './components/estilos/Caja.css';
 
-/*PRUEBA*/
+
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +14,20 @@
   width: 100%;
   background-color: #b2b29a79;
   align-content: center;
- 
+ }
 
+/*.btn-2:before {
+  height: 0%;
+  width: 2px;
 }
+
+
+.btn-2:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}*/
 
 .botonesheader {
   display: flex;
@@ -321,6 +332,9 @@ img.tamano {
 
 @media(max-width:400px) {
 
+  .navbar{
+    height: 4dvh;
+  }
   .h1 {
     font-size: 2.5%;
   }
