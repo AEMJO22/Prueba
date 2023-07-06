@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import Castor021 from "./components/public/Castor021";
 import Castor031 from "./components/public/Castor031";
 import Home from "./components/public/Home";
@@ -29,7 +29,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/expocastor" element={<Home />} />
+        <Route exact path="/expocastor" element={<Home />} />
         <Route path="*" element={<Home />} />
         <Route path="/Castor021" element={<Castor021 />} />
         <Route path="/Castor031" element={<Castor031 />} />
@@ -54,6 +54,7 @@ function App() {
         <Route path="/Almanza17" element={<Almanza17 />} />
         <Route path="/Almanza18" element={<Almanza18 />} />
         <Route path="/Almanza19" element={<Almanza19 />} />
+       
       </Routes>
     </div>
   );
