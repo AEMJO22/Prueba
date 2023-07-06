@@ -1,5 +1,5 @@
 import "./App.css";
-import {Route, Routes } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Castor021 from "./components/public/Castor021";
 import Castor031 from "./components/public/Castor031";
 import Home from "./components/public/Home";
@@ -29,32 +29,33 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route exact path="/expocastor" element={<Home />} />
-        <Route path="*" element={<Home />} />
-        <Route path="/Castor021" element={<Castor021 />} />
-        <Route path="/Castor031" element={<Castor031 />} />
-        <Route path="/Castor041" element={<Castor041 />} />
-        <Route path="/Castor051" element={<Castor051 />} />
-        <Route path="/Castor061" element={<Castor061 />} />
-        <Route path="/PuertoPirata" element={<PuertoPirata />} />
-        <Route path="/Almanza02" element={<Almanza02 />} />
-        <Route path="/Almanza04" element={<Almanza04 />} />
-        <Route path="/Almanza05" element={<Almanza05 />} />
-        <Route path="/Almanza06" element={<Almanza06 />} />
-        <Route path="/Almanza07" element={<Almanza07 />} />
-        <Route path="/Almanza08" element={<Almanza08 />} />
-        <Route path="/Almanza09" element={<Almanza09 />} />
-        <Route path="/Almanza10" element={<Almanza10 />} />
-        <Route path="/Almanza11" element={<Almanza11 />} />
-        <Route path="/Almanza12" element={<Almanza12 />} />
-        <Route path="/Almanza13" element={<Almanza13 />} />
-        <Route path="/Almanza14" element={<Almanza14 />} />
-        <Route path="/Almanza15" element={<Almanza15 />} />
-        <Route path="/Almanza16" element={<Almanza16 />} />
-        <Route path="/Almanza17" element={<Almanza17 />} />
-        <Route path="/Almanza18" element={<Almanza18 />} />
-        <Route path="/Almanza19" element={<Almanza19 />} />
-       
+        
+          <Route exact path="/expocastor" element={<Home />} />
+          <Route path="*" element={<Home />} />
+          <Route path="/Castor021" element={<Castor021 />} />
+          <Route path="/Castor031" element={<Castor031 />} />
+          <Route path="/Castor041" element={<Castor041 />} />
+          <Route path="/Castor051" element={<Castor051 />} />
+          <Route path="/Castor061" element={<Castor061 />} />
+          <Route path="/PuertoPirata" element={<PuertoPirata />} />
+          <Route path="/Almanza02" element={<Almanza02 />} />
+          <Route path="/Almanza04" element={<Almanza04 />} />
+          <Route path="/Almanza05" element={<Almanza05 />} />
+          <Route path="/Almanza06" element={<Almanza06 />} />
+          <Route path="/Almanza07" element={<Almanza07 />} />
+          <Route path="/Almanza08" element={<Almanza08 />} />
+          <Route path="/Almanza09" element={<Almanza09 />} />
+          <Route path="/Almanza10" element={<Almanza10 />} />
+          <Route path="/Almanza11" element={<Almanza11 />} />
+          <Route path="/Almanza12" element={<Almanza12 />} />
+          <Route path="/Almanza13" element={<Almanza13 />} />
+          <Route path="/Almanza14" element={<Almanza14 />} />
+          <Route path="/Almanza15" element={<Almanza15 />} />
+          <Route path="/Almanza16" element={<Almanza16 />} />
+          <Route path="/Almanza17" element={<Almanza17 />} />
+          <Route path="/Almanza18" element={<Almanza18 />} />
+          <Route path="/Almanza19" element={<Almanza19 />} />
+      
       </Routes>
     </div>
   );
