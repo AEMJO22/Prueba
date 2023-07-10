@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import { Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Cuerpo2 from "./Cuerpo2";
-import Navbar from './Navbar';
-import { Fotter } from './Fotter';
-
-
+import Navbar from "./Navbar";
+import { Fotter } from "./Fotter";
 
 const Castor021 = () => {
   return (
     <div>
       <Navbar />
+
       <Cuerpo2
         ruta="/castor0211"
         foto="Castor02-1"
@@ -30,6 +29,6 @@ const Castor021 = () => {
       <Outlet />
     </div>
   );
-}
+};
 
-export default Castor021
+export default Castor021;

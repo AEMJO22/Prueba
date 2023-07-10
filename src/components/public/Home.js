@@ -5,12 +5,15 @@ import Header from "./Header";
 import Cuadro from "./Cuadro";
 import FotoPie from "./FotoPie";
 
+
 function Home() {
   return (
     <div>
       <Header />
+     
       <Main />
       <br />
+      
       <div className="contenedorCajas">
         {" "}
         <Cuadro
